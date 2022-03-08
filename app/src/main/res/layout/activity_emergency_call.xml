@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergency_call"
+    android:background="@drawable/bak_5">
+
+    <ImageView
+        android:id="@+id/imageView_amb"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="1dp"
+        app:srcCompat="@drawable/ambulance3" />
+
+    <TextView
+        android:id="@+id/text_amb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ambulance"
+        android:textAlignment="center"
+        android:textColor="#D50000"
+        android:layout_marginTop="30dp"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_amb"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/round_spin" />
+
+    <Button
+        android:id="@+id/button_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="90dp"
+        android:background="@drawable/round_btn"
+        android:onClick="call"
+        android:text="📞CALL"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

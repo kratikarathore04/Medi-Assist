@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_page"
+    android:background="@drawable/home_back3">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/home" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:text="HOME"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/predict_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/home_round"
+        android:onClick="symptoms_check"
+        android:text="Predict Disease"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Reminder_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/home_round"
+        android:onClick="reminder"
+        android:text="Medicine Reminder"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Calling_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/Reminder_btn"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/home_round"
+        android:onClick="call_amb"
+        android:text="Emergency Calling"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Diet_btn"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/Reminder_btn"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/home_round"
+        android:onClick="tips"
+        android:text="Medi-Tips"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Diet_btn"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="190dp"
+        android:text="Drink Water
+        Stay Home
+        Stay Healthy"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+
+
+
+</RelativeLayout>
