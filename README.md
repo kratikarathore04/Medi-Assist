@@ -12,3 +12,6 @@ Medi-Assist is a smart android application which focuses on the healthcare of th
 
 # Dataset
 https://www.kaggle.com/rabisingh/symptom-checker
+
+# Implementation / Photos
+https://github.com/kratikarathore04/Medi-Assist/blob/main/Implementation.md
